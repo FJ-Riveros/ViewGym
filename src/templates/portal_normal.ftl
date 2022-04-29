@@ -84,18 +84,21 @@
                <div class="row">
 
                     <div class="ml-auto col-lg-4 col-md-5">
-                        <p class="copyright-text">Copyright &copy; 2022 ViewGym Fitness Co.
-                        
-                        <br>Design: <a href="https://www.linkedin.com/in/fj-riveros">FJ-Riveros</a></p>
+                        <p data-lfr-editable-id="footer-copyright" data-lfr-editable-type="text" class="copyright-text">Copyright &copy; 2022 </p><br><p>ViewGym Fitness Co.</p>
                     </div>
 
-                    <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+					<div class="ml-auto col-lg-2 col-md-3 d-flex justify-content-center">
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter icon-footer"></i></a>
+						<a href="https://www.instagram.com"><i class="fa-brands fa-instagram ml-2 icon-footer"></i></a>
+                    </div>
+
+                    <div class="d-flex justify-content-center mx-auto col-lg-4 col-md-7 col-12">
                         <p class="mr-4">
                             <i class="fa fa-envelope-o mr-1"></i>
-                            <a href="#">viewgym@liferay.com</a>
-                        </p>
+                            <a data-lfr-editable-id="footer-web" data-lfr-editable-type="text" href="#">viewgym@liferay.com</a>
+                        </p><br>
 
-                        <p><i class="fa fa-phone mr-1"></i> 010-020-0840</p>
+                        <p data-lfr-editable-id="footer-phone" data-lfr-editable-type="text"><i class="fa fa-phone mr-1"></i> 010-020-0840</p>
                     </div>
                     
                </div>
