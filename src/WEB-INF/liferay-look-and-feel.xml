@@ -7,7 +7,7 @@
 	</compatibility>
 	<theme id="view-gym" name="ViewGym">
 		<template-extension>ftl</template-extension>
-		<portlet-decorator id="barebone" name="Barebone">
+		<!-- <portlet-decorator id="barebone" name="Barebone">
 			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
 		</portlet-decorator>
 		<portlet-decorator id="borderless" name="Borderless">
@@ -16,6 +16,31 @@
 		<portlet-decorator id="decorate" name="Decorate">
 			<default-portlet-decorator>true</default-portlet-decorator>
 			<portlet-decorator-css-class>portlet-decorate</portlet-decorator-css-class>
-		</portlet-decorator>
+		</portlet-decorator> -->
+
+		<settings>
+            <setting configurable="false" key="color-palette" value="primary,success,danger,warning,info,dark,gray-dark,secondary,light,lighter,white" />
+            <setting configurable="true" key="show-footer" type="checkbox" value="true" />
+            <setting configurable="true" key="show-header" type="checkbox" value="true" />
+            <setting configurable="true" key="show-main-navigation-in-full-screen" type="checkbox" value="false" />
+            <setting configurable="false" key="show-site-name-default" value="true" />
+            <setting configurable="false" key="show-site-name-supported" value="true" />
+            <setting configurable="true" key="use-a-retina-logo" type="checkbox" value="true" />
+            <!-- Insert snippet 02-theme-settings here -->
+        </settings>
+        <!-- Insert snippet 01-portlet-decorators here -->
+        <portlet-decorator id="barebone" name="Barebone">
+            <portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
+        </portlet-decorator>
+        <portlet-decorator id="borderless" name="Borderless">
+            <portlet-decorator-css-class>portlet-borderless</portlet-decorator-css-class>
+        </portlet-decorator>
+        <portlet-decorator id="decorate" name="Decorate">
+            <default-portlet-decorator>true</default-portlet-decorator>
+            <portlet-decorator-css-class>portlet-decorate</portlet-decorator-css-class>
+        </portlet-decorator>
+        <portlet-decorator id="solid" name="Solid">
+            <portlet-decorator-css-class>portlet-solid</portlet-decorator-css-class>
+        </portlet-decorator>
 	</theme>
 </look-and-feel>
