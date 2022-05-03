@@ -2,17 +2,14 @@
   "name": "view-gym-fragments",
   "description": "Liferay Fragments project",
   "version": "1.0.0",
-
   "engines": {
     "node": ">= 8.0.0",
     "npm": ">= 6.0.0"
   },
-
   "keywords": [
     "liferay",
     "liferay-fragments"
   ],
-
   "scripts": {
     "add-collection": "yo liferay-fragments:collection",
     "add-fragment": "yo liferay-fragments:fragment",
@@ -23,5 +20,8 @@
     "import": "yo liferay-fragments:import",
     "import:watch": "yo liferay-fragments:import --watch",
     "preview": "yo liferay-fragments:preview"
+  },
+  "dependencies": {
+    "fragment": "^0.3.0"
   }
 }
