@@ -36,5 +36,14 @@
         text-align: center;
     }
     
+    @media (max-width: 992px) {
+        .pricingCard{
+            margin: 10px 0px 10px 0px;
+        }
+
+        .pricing__row{
+            padding: 10px 0px 10px 0px;
+        }
+    }
     
 }
