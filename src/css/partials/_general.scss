@@ -309,6 +309,9 @@
     text-align: center;
     }
     
+    .class_img{
+      width: 100%;
+    }
     
     /*---------------------------------------
      SCHEDULE             
@@ -545,4 +548,11 @@
     .contact h2 span {
       display: block;
     }
+    }
+
+/*---------------------------------------
+    PORTLET STYLES              
+    -----------------------------------------*/
+    .portlet-title-text{
+      display: none;
     }
