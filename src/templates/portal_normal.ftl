@@ -28,7 +28,7 @@
 		<div id="heading">
 
 			<#if has_navigation && is_setup_complete>
-				<#include "${full_templates_path}/navigation.ftl" />
+				<#include "${full_templates_path}/navigation_new.ftl" />
 			</#if>
 			
 			<#--
