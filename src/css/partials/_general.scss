@@ -550,9 +550,27 @@
     }
     }
 
-/*---------------------------------------
+    /*---------------------------------------
     PORTLET STYLES              
     -----------------------------------------*/
     .portlet-title-text{
       display: none;
     }
+
+    /*---------------------------------------
+    CAROUSEL STYLES              
+    -----------------------------------------*/
+    .carousel{
+      .carousel__img{
+        display: block;
+        background-size: cover !important;
+        background-position: top;
+        width: 100vw;
+        background-repeat: no-repeat !important;
+        vertical-align: middle;
+        min-height: 100vh;
+        position: relative;
+      }
+    }
+
+
