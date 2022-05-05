@@ -54,9 +54,11 @@
 				</li>
 				</#list>
 				<#if !is_signed_in>
-					<a data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">${sign_in_text}</a>
+					<a class="nav-link" data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+					<#--  <a class="nav-link" data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow"><span>${sign_in_text}</span></a>  -->
 				<#else>
-					<a data-redirect="${is_login_redirect_required?string}" href="${sign_out_url}" id="sign-out" rel="nofollow">${sign_out_text}</a>
+					<a class="nav-link" data-redirect="${is_login_redirect_required?string}" href="${sign_out_url}" id="sign-out" rel="nofollow"><i class="fa-solid fa-door-open"></i></a>
+					<#--  <a class="nav-link" data-redirect="${is_login_redirect_required?string}" href="${sign_out_url}" id="sign-out" rel="nofollow"><span>${sign_out_text}</span></a>  -->
 				</#if>
 			</ul>
 		</div>
