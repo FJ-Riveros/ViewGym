@@ -1,5 +1,12 @@
 .pricing{
-    background: var(--dark-color);
+    // background: var(--dark-color);
+    background-image: url('/documents/37150/0/dumbell.jpg/ae5b92e1-05db-574a-9b5d-0e4890140963');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
 
     .pricing__title{
         margin-bottom: 60px;
@@ -15,8 +22,8 @@
     }
 
     .pricingCard{
-        border: 1px solid gray;
-        border-radius: 10px;
+        border: 1px solid var(--white-color) ;
+        border-radius: 5px;
     }
 
     .pricing__enroll-button{
