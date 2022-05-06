@@ -266,7 +266,7 @@
     .hero {
     background-image: url('/documents/37150/0/hero-bg.jpg/b3d372c3-d668-ae81-ef7e-b4993a1233b0');
     background-size: cover;
-    background-position: top;
+    background-position: fixed;
     background-repeat: no-repeat;
     vertical-align: middle;
     min-height: 100vh;
@@ -281,7 +281,7 @@
     .class-info {
     background: var(--white-color);
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
-    border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;background: var(--dark-color);
     padding: 1rem 2rem;
     position: relative;
     }
