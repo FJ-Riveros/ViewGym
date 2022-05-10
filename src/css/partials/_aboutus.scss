@@ -1,0 +1,21 @@
+.bgimg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 100%;
+    left: 0;
+    // top: 0;
+    width: 100%;
+}
+
+.about-us{
+    h2, p, a{
+        color: var(--white-color);
+    }
+
+    a{
+        font-weight: bold;
+    }
+}

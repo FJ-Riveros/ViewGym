@@ -60,6 +60,8 @@
 					<a class="nav-link" data-redirect="${is_login_redirect_required?string}" href="${sign_out_url}" id="sign-out" rel="nofollow"><i class="fa-solid fa-door-open"></i></a>
 					<#--  <a class="nav-link" data-redirect="${is_login_redirect_required?string}" href="${sign_out_url}" id="sign-out" rel="nofollow"><span>${sign_out_text}</span></a>  -->
 				</#if>
+
+				<@liferay.user_personal_bar />
 			</ul>
 		</div>
 	</div>
