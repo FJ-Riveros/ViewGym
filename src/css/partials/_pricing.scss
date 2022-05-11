@@ -1,6 +1,6 @@
 .pricing{
     // background: var(--dark-color);
-    background-image: url('/documents/37150/0/dumbell.jpg/ae5b92e1-05db-574a-9b5d-0e4890140963');
+    // background-image: url('/documents/37150/0/dumbell.jpg/ae5b92e1-05db-574a-9b5d-0e4890140963');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -57,4 +57,9 @@
         }
     }
     
+}
+
+
+.dark-background{
+    background: var(--dark-color);
 }
