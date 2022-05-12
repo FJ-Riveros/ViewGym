@@ -595,3 +595,9 @@
     }
 
 
+  /*---------------------------------------
+    FAQ STYLES              
+  -----------------------------------------*/
+    .accordion > .card > .card-header{
+      border-bottom: 5px solid var(--primary-color) !important;
+    }
