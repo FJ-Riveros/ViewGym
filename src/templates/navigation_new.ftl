@@ -61,7 +61,9 @@
 					<#--  <a class="nav-link" data-redirect="${is_login_redirect_required?string}" href="${sign_out_url}" id="sign-out" rel="nofollow"><span>${sign_out_text}</span></a>  -->
 				</#if>
 
-				<@liferay.user_personal_bar />
+				<#if is_signed_in>
+					<@liferay.user_personal_bar />
+				</#if>
 			</ul>
 		</div>
 	</div>
