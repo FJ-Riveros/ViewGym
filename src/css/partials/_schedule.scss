@@ -1,3 +1,58 @@
 .schedule{
     background-color: var(--white-color);
+
+    .class-item {
+        border-radius: 4px;
+        box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-bottom: 30px;
+        position: relative;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease;
+        z-index: 1;
+    }
+
+    .days li a {
+        background: #eee;
+        padding: 10px;
+        display: block;
+        color: var(--primary-color);
+    }
+
+    .days li {
+        text-align: center;
+        display: inline-block;
+        width: 14.25%;
+    }
+
+    .days {
+        width: 100%;
+        padding: 0;
+        margin: 0 0 50px 0;
+        flex-direction: row;
+    }    
+
+    .days li a:hover{
+        background-color: var(--primary-color);
+        color: var(--white-color);
+    }
+
+    .class-item:hover {
+        z-index: 2;
+        background: var(--primary-color); 
+    }
+
+    .class-item:hover h2 a {
+      color: var(--white-color); 
+    }
+
+    .class-item:hover p, .class-item:hover span {
+      color: rgba(255, 255, 255, 0.6); 
+    }
+    
 }
+
+
+
+
