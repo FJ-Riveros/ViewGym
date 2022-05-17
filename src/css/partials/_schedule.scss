@@ -23,7 +23,7 @@
     .days li {
         text-align: center;
         display: inline-block;
-        width: 14.25%;
+        width: 16.66%;
     }
 
     .days {
@@ -51,6 +51,22 @@
       color: rgba(255, 255, 255, 0.6); 
     }
     
+
+    .class-item .class-item-thumbnail img {
+        max-width: 100px;
+        border-radius: 4px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        vertical-align: middle;
+        border-style: none;
+    }
+    .schedule-image-container{
+        width: 50%;
+        height: 150px;
+        background-size: cover;
+    }
+    
+
 }
 
 
