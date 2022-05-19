@@ -24,3 +24,13 @@
     min-height: 50vh;
     text-align: center;
 }
+
+#portlet_com_liferay_login_web_portlet_LoginPortlet{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .row{
+        width: 70vw;
+    }
+}
